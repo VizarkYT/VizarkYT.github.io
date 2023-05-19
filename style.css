@@ -1,0 +1,347 @@
+.pagina {
+  font-family: "Bai Jamjuree", sans-serif;
+  background-color: rgba(133, 136, 106, 0.7);
+  
+}
+
+.logo {
+  width: 30%;
+}
+
+header {
+  background-color: #bbbbbb;
+  padding: 20px;
+}
+
+.caja {
+  width: 940px;
+  position: relative;
+  margin: 0 auto;
+}
+
+nav {
+  position: absolute;
+  top: 122px;
+  right: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 0 0 12px;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: #000000;
+  font-size: 22px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #c78c19;
+  text-decoration: underline;
+}
+
+main {
+
+  box-shadow: -1px -35px 35px -22px rgba(255, 49, 49, 1) inset;
+ 
+}
+
+.productos {
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px;
+
+}
+
+.productos h2 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.productos li:hover h2 {
+  font-size: 30px;
+}
+
+.productos li {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 30px 1px;
+  box-sizing: border-box;
+  border: 2px solid black;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.productos li:hover {
+  border-color: #c78c19;
+}
+
+.productos li:active {
+  border-color: #088c19;
+}
+
+.producto_descripcion {
+  font-size: 18px;
+}
+
+.producto_precio {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+footer {
+  text-align: center;
+  background: url(IMAGENES/bg.jpg);
+  padding: 40px;
+}
+
+.copyright {
+  color: white;
+  font-size: 13px;
+  position: relative;
+  top: -100px;
+}
+
+.formulario {
+  width: 940px;
+  margin: 40px auto;
+}
+
+.labelprincipal,
+form legend {
+  display: block;
+  font-size: 20px;
+  margin: 0 0 10px 0;
+}
+
+.inputprincipal {
+  display: block;
+  font-size: 20px;
+  margin: 0 0 20px 0;
+  padding: 10px 25px;
+  width: 50%;
+}
+
+textarea {
+  font-size: 18px;
+}
+
+.checkbox {
+  margin: 20px 0;
+}
+
+.enviar {
+  width: 40%;
+  font-size: 20px;
+  padding: 15px 0;
+  font-weight: bold;
+  border: none;
+  color: white;
+  background: red;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s all;
+}
+.enviar:hover {
+  background: rgb(22, 249, 22);
+  transform: scale(1.2);
+}
+
+.tabla-de-horario {
+  margin: 0 auto;
+  width: 940px;
+  padding: 40px;
+}
+.tabla-de-horario thead {
+  background-color: #000000;
+  color: white;
+  font-weight: bold;
+
+}
+
+.tabla-de-horario td,
+.tabla-de-horario th {
+  border: 2px solid black;
+  padding: 10px 20px;
+  transform: scale(1.2);
+
+
+  
+}
+
+
+/*CSS PARA HOME-INDEX*/
+
+.banner {
+  width: 100%;
+}
+
+.degradado {
+  background-image: linear-gradient(white, rgb(133, 136, 106));
+  
+}
+.titulo-principal {
+  text-align: center;
+  font-size: 2em;
+  margin: 0 0 1em 0;
+  clear: left;
+}
+
+.contenidoprincipal {
+  width: 940px;
+  margin: 0 auto;
+  padding: 30px;
+}
+.contenidoprincipal p {
+  margin: 0 0 1em 0;
+}
+
+.contenidoprincipal strong {
+  font-weight: bold;
+}
+
+.contenidoprincipal em strong {
+  font-style: italic;
+  color: red;
+}
+
+.logo-circular {
+  width: 120px;
+  float: left;
+  margin: -8px 20px 20px 0;
+}
+
+.ubicacion {
+  padding: 3em 0;
+  width: 940px;
+  margin: 0 auto;
+}
+
+.ubicacion p {
+  text-align: center;
+  margin-bottom: 2em;
+}
+.difirenciales {
+  margin: 0% auto;
+  width: 720px;
+  padding-bottom: 3em;
+}
+
+.difirenciales ul {
+  display: inline-block;
+  width: 40%;
+  vertical-align: top;
+}
+
+.difirenciales li:before {
+  content: "\2B50";
+}
+
+.listadedifirenciales {
+  line-height: 1.5;
+}
+
+.listadedifirenciales:first-child {
+  font-weight: bold;
+}
+
+.imagendifirencial {
+  width: 60%;
+  box-shadow: -4px 1px 28px 3px rgba(255, 0, 145, 1);
+  border-radius: 10px;
+}
+
+.imagendifirencial:hover {
+  opacity: 0.8;
+  transform: scale(1.1);
+  transition: 1s;
+}
+.video {
+  width: 100%;
+  background-color: rgb(133, 136, 106);
+  padding-bottom: 3em;
+  text-align: center;
+  box-shadow: -1px -35px 35px -22px rgba(255, 49, 49, 1) inset;
+}
+.video iframe {
+  width: 560px;
+}
+
+@media (max-width: 912px) {
+  h1 {
+    text-align: center;
+  }
+  nav {
+    position: static;
+    text-align: center;
+  }
+
+  nav ul {
+    padding-bottom: 2em;
+  }
+  .caja,
+  .contenidoprincipal,
+  .ubicacion,
+  .difirenciales,
+  .video {
+    width: auto;
+  }
+
+  .difirenciales ul {
+    width: 100%;
+    padding-bottom: 2em;
+  }
+
+  .imagendifirencial {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .video iframe {
+    width: 100%;
+  }
+  .productos {
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .productos ul {
+    padding: 1em;
+  }
+  .productos li {
+    display: block;
+    width: 90%;
+    margin: 2em auto;
+  }
+
+  .productos li img {
+    width: 70%;
+  }
+  .formulario {
+    width: 80%;
+  }
+
+  #mensaje,
+  .tabla-de-horario,
+  .tabla-de-horario table {
+    width: 70%;
+  }
+
+  .logo-footer {
+    width: 100%;
+  }
+
+  .copyright{
+    
+    
+    padding: 3em;
+  }
+}
